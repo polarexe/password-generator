@@ -1,6 +1,6 @@
 import random
 
-print("Simpe password generator")
+print("Simple password generator")
 
 ### Define a list of characters
 characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()"
@@ -19,3 +19,6 @@ finalPassword = ''.join(map(str, newPassword))
 
 ### Let the user know their new password
 print("\n Here is your password: ", finalPassword)
+
+### Exit
+exit = int(input("\n To exit press any key"))
